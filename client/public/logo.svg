@@ -1,0 +1,28 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Shield -->
+  <path d="M100 20L20 60V140L100 180L180 140V60L100 20Z" fill="#1E1B4B" stroke="#7E22CE" stroke-width="4"/>
+  
+  <!-- Crossed Swords -->
+  <g filter="url(#glow)">
+    <!-- Sword 1 -->
+    <path d="M70 50L100 80L60 120L30 90L70 50Z" fill="#EAB308" stroke="#FACC15" stroke-width="2"/>
+    <path d="M30 90L10 70L30 50L50 70L30 90Z" fill="#7E22CE"/>
+    <path d="M100 80L130 110" stroke="#FACC15" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Sword 2 -->
+    <path d="M130 50L100 80L140 120L170 90L130 50Z" fill="#EAB308" stroke="#FACC15" stroke-width="2"/>
+    <path d="M170 90L190 110L170 130L150 110L170 90Z" fill="#7E22CE"/>
+    <path d="M100 80L70 110" stroke="#FACC15" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="100" y="150" text-anchor="middle" font-family="monospace" font-size="20" font-weight="bold" fill="#EAB308">DSARENA</text>
+  
+  <!-- Glow Effect -->
+  <defs>
+    <filter id="glow" x="0" y="0" width="200" height="200">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+</svg>
