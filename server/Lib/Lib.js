@@ -1,2 +1,2 @@
 // ./Lib.js
-module.exports = '/defaultAvatar.png';
+export default '/defaultAvatar.png';
